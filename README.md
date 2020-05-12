@@ -1,1 +1,1 @@
-foodfindr temporary landing page made with HTML and Bootstrap
+[ foodfindr ](https://github.com/eric-li18/foodfindr) landing page made with HTML and Bootstrap
