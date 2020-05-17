@@ -4,5 +4,5 @@
 Future plans to possibly move to build the static site with jekyll, with Travis-CI and Docker integration so as to bypass development environment setup.
 
 ```
-docker run -itd --env JEKYLL_ENV=development -p 4000:4000 --name ff-site jekyll/jekyll jekyll serve
+docker run --rm -dit -p 4000:4000 --name ff-site jekyll/jekyll jekyll serve
 ```
