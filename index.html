@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html>
+
+<html><!DOCTYPE html>
   <head>
     <meta charset="utf-8" />
     <title>foodfindr</title>
@@ -34,7 +34,7 @@
       integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="styles.css" />
 
     <!-- Google Fonts -->
     <link
@@ -206,6 +206,10 @@
         <i class="fab fa-google-play"></i>
         Download
       </button>
+      <button class="btn btn-outline-light btn-lg sign-up-button" type="button">
+        <i class="far fa-envelope"></i> 
+        Newsletter
+      </button>
     </section>
 
     <!-- Footer -->
@@ -216,5 +220,36 @@
       <i class="social-icon fab fa-instagram"></i>
       <p>© Copyright 2020 foodfindr</p>
     </footer>
+
+    <div id="overlay">
+      <div id="overlay-card" class="card bg-light" >
+        <div class="card-body">
+            <form class="form-signin" method="post">
+              <i class="fas fa-utensils fa-5x feature-icon"></i>
+          <h1 class="h3 mb-3 font-weight-normal">Newsletter</h1>
+          <input type="text" class="form-control top" name="firstName" placeholder="First Name" required autofocus>
+          <input type="text" class="form-control middle" name="lastName" placeholder="Last Name">
+          <input type="email" id="inputEmail" name="email" class="form-control bottom" placeholder="Email address" required autofocus>
+        
+          <button class="btn btn-lg btn-outline-success btn-block" type="submit">Sign Up</button>
+        </div>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+    <!-- <script>
+      function off() {
+        document.getElementById("overlay").style.display = "none";
+      }
+
+      $('.sign-up-button').click(function () {
+        document.getElementById("overlay").style.display = "block";
+      });
+
+      window.onclick =  function(e){   
+      if (e.target == overlay)
+        off();
+      };
+    </script> -->
   </body>
 </html>
