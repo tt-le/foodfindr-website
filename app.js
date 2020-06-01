@@ -56,12 +56,3 @@ app.listen(3000, () => {
     console.log('Server is running on 3000');
     
 });
-
-
-// api key
-
-// 31428fa760d88808f1e34dae4a1923f9-us10
-
-
-// list id 
-// 7bd173f48c
