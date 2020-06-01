@@ -1,0 +1,18 @@
+language: ruby
+cache: bundler
+rvm:
+    - 2.6.3
+    
+install: gem install jekyll html-proofer
+script: jekyll build && htmlproofer ./_site
+
+matrix:
+    fast_finish: true
+
+deploy:
+    provider: heroku
+
+notifications:
+    email:
+        on_success: never
+        on_failure: always
