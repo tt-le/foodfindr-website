@@ -1,6 +1,4 @@
-<<<<<<< HEAD
-foodfindr-website
-=======
+# foodfindr-website
 [ foodfindr ](https://github.com/eric-li18/foodfindr) landing page made with HTML and Bootstrap
 
 ## WIP
@@ -9,4 +7,3 @@ Future plans to possibly move to build the static site with jekyll, with Travis-
 ```
 docker run --rm -dit -p 4000:4000 --name ff-site jekyll/jekyll jekyll serve
 ```
->>>>>>> 282a36b5c96467b506e5dd84f9b7a260f6df7c3a
