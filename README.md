@@ -1,5 +1,5 @@
 # foodfindr-website
-[ foodfindr ](https://github.com/eric-li18/foodfindr) responsive landing page made with HTML and Bootstrap.
+🍕[ foodfindr ](https://github.com/eric-li18/foodfindr) responsive landing page made with HTML and Bootstrap.
 Includes a Newsletter feature using mailchimp's REST api integrated with express.js. 
 The web app is deployed using heroku.
 
